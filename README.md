@@ -37,7 +37,7 @@ This project extracts information of data through both autamated browsing with S
     4. Find the code on HTML element page for the title of each articles, and its preview text
     5. Identify the tags and classes for title and preview text, using find() function
     6. Create an empty list to store results by using combination of For loop method and list dictionary
-    7. Optional: to create a Json file to view the scraped data
+    7. Optional: to create a Json file to view the scraped data as "outfile.json"
 
 ### Scrape and Analyse Mars Weather Data
     1. Same method as above, import dependencies and set up URL link and visit the website
