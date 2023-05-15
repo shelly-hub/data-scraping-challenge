@@ -6,8 +6,8 @@ To learn web-scraping using python code through identifying HTML elements on a p
 ## Project Descriptions
 This project extracts information of data through both autamated browsing with Splinter and HTML parsing with Beautiful Soup. The project is separated into 2 parts. 
 
- - One is using Mars News website to extract news article information such as titles and preview text in the webpage. 
- - Second is using Mars Temperature Data site to extract HTML tables into pandas dataframe. 
+ - Part 1 - This is using Mars News website to extract news article information such as titles and preview text in the webpage. 
+ - Part 2 - This is using Mars Temperature Data site to extract HTML tables into pandas dataframe. 
  
  ### Advantages of Web Scraping
   - Can be fast and efficient
