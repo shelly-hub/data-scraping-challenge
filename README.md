@@ -40,15 +40,15 @@ This project extracts information of data through both autamated browsing with S
     7. Optional: to create a Json file to view the scraped data
 
 ### Scrape and Analyse Mars Weather Data
-   1. Same method as above, import dependencies and set up URL link and visit the website
-   2. Instead of using Pandas, pd.read_html, this project continues to use python BeautifulSoup method to extract data.
-   3. Here using For loop method looping through enumerate rows to obtain data for multiple columns
-   4. After scraping table data, convert it into dataframe
-   5. Data types also need to be converted as datetime, integer and float 
-   6. Then begin the analysis using pandas
-   7. Temperatures data vs Month are plotted to identify coldest and warmest months across the Martian Months
-   8. The distance between 2 peaks of the minimum temperature indicates the equaivalent of terrestrial days to one Martian year
-   9. Dataframe is then saved to csv file as mars.csv
+    1. Same method as above, import dependencies and set up URL link and visit the website
+    2. Instead of using Pandas, pd.read_html, this project continues to use python BeautifulSoup method to extract data.
+    3. Here using For loop method looping through enumerate rows to obtain data for multiple columns
+    4. After scraping table data, convert it into dataframe
+    5. Data types also need to be converted as datetime, integer and float 
+    6. Then begin the analysis using pandas
+    7. Temperatures data vs Month are plotted to identify coldest and warmest months across the Martian Months
+    8. The distance between 2 peaks of the minimum temperature indicates the equaivalent of terrestrial days to one Martian year
+    9. Dataframe is then saved to csv file as mars.csv
 
 ## Reference
    - AttributeError: 'NoneType' object has no attribute 'text'. Web scraping indeed with Python [duplicate].(29/Jan/2020). Stack Overflow. Retrieved on 14/May/2023, from:<https://stackoverflow.com/questions/59960321/attributeerror-nonetype-object-has-no-attribute-text-web-scraping-indeed-w>
