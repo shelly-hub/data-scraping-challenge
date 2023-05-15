@@ -30,7 +30,7 @@ This project extracts information of data through both autamated browsing with S
         - pip install html5lib
         - pip install lxml
 
-### Scrape Title and Preview Text from Mars News Article
+### Part 1 - Scrape Title and Preview Text from Mars News Article
     1. Import dependencies such as Browser and BeautifulSoup
     2. create the URL link to visit chrome website
     3. Once on the webpage, right-click to go to inspect to direct to HTML element page. 
@@ -39,7 +39,7 @@ This project extracts information of data through both autamated browsing with S
     6. Create an empty list to store results by using combination of For loop method and list dictionary
     7. Optional: to create a Json file to view the scraped data as "outfile.json"
 
-### Scrape and Analyse Mars Weather Data
+### Part 2 - Scrape and Analyse Mars Weather Data
     1. Same method as above, import dependencies and set up URL link and visit the website
     2. Instead of using Pandas, pd.read_html, this project continues to use python BeautifulSoup method to extract data.
     3. Here using For loop method looping through enumerate rows to obtain data for multiple columns
