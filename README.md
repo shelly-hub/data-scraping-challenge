@@ -22,5 +22,11 @@ This project extracts information of data through both autamated browsing with S
 ## Project Method
 
 ### Installation
-
+1. Install ChromeDriver from the chrome website and follow its instructions
+2. Set up path to the local folder
+3. In the terminal, install following packages:
+   - pip install "splinter[selenium4]"
+   - pip install bs4
+   - pip install html5lib
+   - pip install lxml
  
